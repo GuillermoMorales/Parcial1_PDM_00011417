@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/partidosFragment">
+
+    <fragment
+        android:id="@+id/partidosFragment"
+        android:name="com.javi.basket.PartidosFragment"
+        android:label="fragment_partidos"
+        tools:layout="@layout/fragment_partidos" />
+    <fragment android:id="@+id/partidoFragment" android:name="com.javi.basket.PartidoFragment"
+              android:label="fragment_partido" tools:layout="@layout/fragment_partido"/>
+</navigation>

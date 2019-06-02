@@ -9,7 +9,25 @@
         android:id="@+id/partidosFragment"
         android:name="com.javi.basket.PartidosFragment"
         android:label="fragment_partidos"
-        tools:layout="@layout/fragment_partidos" />
+        tools:layout="@layout/fragment_partidos" >
+        <action
+            android:id="@+id/action_partidosFragment_to_partidoFragment"
+            app:destination="@id/partidoFragment" />
+    </fragment>
     <fragment android:id="@+id/partidoFragment" android:name="com.javi.basket.PartidoFragment"
               android:label="fragment_partido" tools:layout="@layout/fragment_partido"/>
+    <fragment
+        android:id="@+id/nuevopFragment"
+        android:name="com.javi.basket.NuevopFragment"
+        android:label="fragment_nuevop"
+        tools:layout="@layout/fragment_nuevop" />
+    <fragment
+        android:id="@+id/preFragment"
+        android:name="com.javi.basket.PreFragment"
+        android:label="fragment_pre"
+        tools:layout="@layout/fragment_pre" >
+        <action
+            android:id="@+id/action_preFragment_to_nuevopFragment"
+            app:destination="@id/nuevopFragment" />
+    </fragment>
 </navigation>

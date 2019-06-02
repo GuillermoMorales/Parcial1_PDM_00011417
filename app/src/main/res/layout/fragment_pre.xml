@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Ingrese el nombre de los equipos"
+            android:paddingBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/txtLocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:imeOptions="actionNext"
+            android:hint="Local"
+            />
+
+        <EditText
+            android:id="@+id/txtVisitante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:imeOptions="actionDone"
+            android:hint="Visitante"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INGRESAR"/>
+
+
+
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

@@ -25,9 +25,5 @@
         android:id="@+id/preFragment"
         android:name="com.javi.basket.PreFragment"
         android:label="fragment_pre"
-        tools:layout="@layout/fragment_pre" >
-        <action
-            android:id="@+id/action_preFragment_to_nuevopFragment"
-            app:destination="@id/nuevopFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_pre" />
 </navigation>

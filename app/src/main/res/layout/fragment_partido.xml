@@ -50,11 +50,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:id="@+id/visitor"
+            android:id="@+id/visitante"
             android:textAllCaps="true"
             android:textSize="20sp"
             android:layout_margin="16dp"
-            android:text="Visitor"/>
+            android:text="Visitante"/>
 
         <TextView
             android:layout_width="match_parent"
